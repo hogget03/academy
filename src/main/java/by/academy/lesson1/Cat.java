@@ -7,6 +7,7 @@ public class Cat {
 	double weight;
 	int age;
 	double height;
+	int money;
 
 	public Cat() {
 		super();
