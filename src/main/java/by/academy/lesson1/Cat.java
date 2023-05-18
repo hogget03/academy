@@ -6,6 +6,7 @@ public class Cat {
 	String color;
 	double weight;
 	int age;
+	double height;
 
 	public Cat() {
 		super();
