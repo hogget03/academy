@@ -3,7 +3,6 @@ package by.academy.lesson1;
 public class CatDemo {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Cat cat1 = new Cat();
 		System.out.println(cat1);
 		Cat cat2 = new Cat("Васька", "Серый", 8.0, 7);
