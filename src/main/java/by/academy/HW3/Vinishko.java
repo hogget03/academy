@@ -1,4 +1,4 @@
-package Lesson5;
+package by.academy.HW3;
 
 public class Vinishko extends Product {
 	String color;
@@ -67,6 +67,12 @@ public class Vinishko extends Product {
 	@Override
 	public String toString() {
 		return "Vinishko [color=" + color + ", fortress=" + fortress + "]";
+	}
+
+	@Override
+	public double discount() {
+		// TODO Auto-generated method stub
+		return 0;
 	}
 
 }

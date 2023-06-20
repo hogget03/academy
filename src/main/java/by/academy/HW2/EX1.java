@@ -1,4 +1,4 @@
-package HW2;
+package by.academy.HW2;
 
 import java.util.Scanner;
 

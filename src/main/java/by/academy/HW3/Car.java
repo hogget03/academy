@@ -1,4 +1,4 @@
-package car;
+package by.academy.HW3;
 
 public class Car {
 	String carClass;

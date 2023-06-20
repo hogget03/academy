@@ -1,4 +1,4 @@
-package Lesson5;
+package by.academy.HW3;
 
 public class Shokoladka extends Product {
 	String producer;
@@ -66,6 +66,12 @@ public class Shokoladka extends Product {
 	@Override
 	public String toString() {
 		return "Shokoladka [producer=" + producer + ", isBlack=" + isBlack + "]";
+	}
+
+	@Override
+	public double discount() {
+		// TODO Auto-generated method stub
+		return 0;
 	}
 
 }

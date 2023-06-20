@@ -1,4 +1,4 @@
-package Lesson5;
+package by.academy.HW3;
 
 public class PersonDemo {
 	public static void main(String... strings) {
