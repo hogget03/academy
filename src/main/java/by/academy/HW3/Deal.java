@@ -119,8 +119,32 @@ public class Deal {
 				&& Arrays.equals(products, other.products) && Objects.equals(seller, other.seller);
 	}
 
-	public void addProduct(Product p) {
-		products[index++] = p;
+	private void grows() {
+		Product[] temp = new Product[products.length + 1];
+		System.arraycopy(products, 0, temp, 0, products.length);
+		products = temp;
 	}
 
+	public void addProduct(Product p) {
+		if (index >= products.length) {
+			grows();
+		}
+		products[index++] = p;
+	}
+	public void remove() {
+		if(index == 0) {
+			return;
+		}
+		products[--index] = null;
+	}
+//	public static void remove (int ) {
+//		if(items == null || items.length == 0) {
+//			return;
+//		}
+//		if (index >= 0 && index < currentIndex) {
+//			items [index]=null;
+//		}else {
+//			return;
+//		}
+//	}
 }

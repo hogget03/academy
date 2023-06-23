@@ -1,4 +1,4 @@
-package by.academy.HW3;
+package by.academy.HW3.car;
 
 public class Engine {
 

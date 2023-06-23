@@ -55,8 +55,8 @@ public class Meny {
 		System.out.println("0- Exit proggram");
 		System.out.println("1- Print product");
 		
-	public void addProduct() {
-		
 	}
+	public static void addProduct() {
+		
 	}
 }
