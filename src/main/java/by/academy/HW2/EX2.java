@@ -1,6 +1,5 @@
 package by.academy.HW2;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class EX2 {
