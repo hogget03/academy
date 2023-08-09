@@ -131,20 +131,12 @@ public class Deal {
 		}
 		products[index++] = p;
 	}
+
 	public void remove() {
-		if(index == 0) {
+		if (index == 0) {
 			return;
 		}
 		products[--index] = null;
 	}
-//	public static void remove (int ) {
-//		if(items == null || items.length == 0) {
-//			return;
-//		}
-//		if (index >= 0 && index < currentIndex) {
-//			items [index]=null;
-//		}else {
-//			return;
-//		}
-//	}
+
 }
